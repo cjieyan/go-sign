@@ -1,9 +1,9 @@
-package sign
+package gosignv2
 
 import (
-	"fmt"
-	"net/url"
-	"testing"
+"fmt"
+"net/url"
+"testing"
 )
 
 //

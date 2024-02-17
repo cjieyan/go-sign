@@ -1,8 +1,8 @@
-package sign
+package gosignv2
 
 import (
-	"crypto/hmac"
-	"crypto/sha1"
+"crypto/hmac"
+"crypto/sha1"
 )
 
 //

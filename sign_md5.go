@@ -1,4 +1,4 @@
-package sign
+package gosignv2
 
 import "crypto/md5"
 

@@ -5,13 +5,13 @@ Http API 签名验证工具包，提供对API请求的签名生成、签名校�
 # 0x00 安装
 
 ```
-$ go get -u github.com/parkingwang/go-sign
+$ go get -u github.com/cjyan/go-sign-v2
 ```
 
 OR
 
 ```
-dep ensure --add github.com/parkingwang/go-sign
+dep ensure --add github.com/cjyan/go-sign-v2
 ```
 
 # 0x01 生成签名信息

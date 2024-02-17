@@ -1,11 +1,11 @@
-package sign
+package gosignv2
 
 import (
-	"errors"
-	"fmt"
-	"net/url"
-	"strings"
-	"time"
+"errors"
+"fmt"
+"net/url"
+"strings"
+"time"
 )
 
 //

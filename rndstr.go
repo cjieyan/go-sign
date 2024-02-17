@@ -1,8 +1,8 @@
-package sign
+package gosignv2
 
 import (
-	"math/rand"
-	"time"
+"math/rand"
+"time"
 )
 
 //

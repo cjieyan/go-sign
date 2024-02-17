@@ -1,11 +1,11 @@
-package sign
+package gosignv2
 
 import (
-	"fmt"
-	"net/url"
-	"sort"
-	"strings"
-	"strconv"
+"fmt"
+"net/url"
+"sort"
+"strings"
+"strconv"
 )
 
 //
