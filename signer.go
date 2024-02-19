@@ -1,11 +1,11 @@
 package gosignv2
 
 import (
-"fmt"
-"net/url"
-"sort"
-"strings"
-"strconv"
+	"fmt"
+	"net/url"
+	"sort"
+	"strconv"
+	"strings"
 )
 
 //
@@ -129,8 +129,6 @@ func (slf *GoSigner) SetAppSecret(appSecret string) *GoSigner {
 
 // SetAppSecretWrapBody 在签名参数体的首部和尾部，拼接AppSecret字符串。
 func (slf *GoSigner) SetAppSecretWrapBody(appSecret string) *GoSigner {
-	slf.SetSignBodyPrefix(appSecret)
-	slf.SetSignBodySuffix(appSecret)
 	return slf.SetAppSecret(appSecret)
 }
 
