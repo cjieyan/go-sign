@@ -1,11 +1,11 @@
 package gosignv2
 
 import (
-"errors"
-"fmt"
-"net/url"
-"strings"
-"time"
+	"errors"
+	"fmt"
+	"net/url"
+	"strings"
+	"time"
 )
 
 //
@@ -84,7 +84,7 @@ func (slf *GoVerifier) MustHasKeys(keys ...string) error {
 	return nil
 }
 
-// MustHasKeys 必须包含除特定的[timestamp, nonce_str, sign, appid]等之外的指定的字段参数
+// MustHasKeys 必须包含除特定的[timestamp, nonce, sign, appid]等之外的指定的字段参数
 func (slf *GoVerifier) MustHasOtherKeys(keys ...string) error {
 	fields := []string{slf.keyNameTimestamp, slf.keyNameNonceStr, slf.keyNameSign, slf.keyNameAppId}
 	if len(keys) > 0 {

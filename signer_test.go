@@ -1,9 +1,9 @@
 package gosignv2
 
 import (
-"fmt"
-"net/url"
-"testing"
+	"fmt"
+	"net/url"
+	"testing"
 )
 
 //
@@ -19,7 +19,7 @@ func TestGoSignMd5(t *testing.T) {
 	signer.SetAppSecretWrapBody("d93047a4d6fe6111")
 	fmt.Println("生成签字字符串：" + signer.GetSignBodyString())
 	fmt.Println("输出URL字符串：" + signer.GetSignedQuery())
-	if "appid=9d8a121ce581499d&nonce_str=ibuaiVcKdpRxkhJA&plate_number=豫A66666"+
+	if "appid=9d8a121ce581499d&nonce=ibuaiVcKdpRxkhJA&plate_number=豫A66666"+
 		"&timestamp=1532585241&sign=072defd1a251dc58e4d1799e17ffe7a4" != signer.GetSignedQuery() {
 		t.Fatal("Md5校验失败")
 	}

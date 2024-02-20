@@ -7,7 +7,7 @@ package gosignv2
 
 const (
 	KeyNameTimestamp = "timestamp"
-	KeyNameNonceStr  = "nonce_str"
+	KeyNameNonceStr  = "nonce"
 	KeyNameAppId     = "appid"
 	KeyNameSign      = "sign"
 )

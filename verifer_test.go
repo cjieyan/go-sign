@@ -1,8 +1,8 @@
 package gosignv2
 
 import (
-"fmt"
-"testing"
+	"fmt"
+	"testing"
 )
 
 //
@@ -10,7 +10,7 @@ import (
 //
 
 func TestGoVerify_ParseQuery(t *testing.T) {
-	requestUri := "/restful/api/numbers?appid=9d8a121ce581499d&nonce_str=ibuaiVcKdpRxkhJA&plate_number=豫A66666" +
+	requestUri := "/restful/api/numbers?appid=9d8a121ce581499d&nonce=ibuaiVcKdpRxkhJA&plate_number=豫A66666" +
 		"&timestamp=1532585241&sign=072defd1a251dc58e4d1799e17ffe7a4"
 
 	// 第一步：创建GoVerify校验类
